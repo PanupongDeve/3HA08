@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# PlanAhead v13.4
+# Build 157570 by hdbuild on Fri Dec 16 12:55:36 MST 2011
+# Start of session at: Tue Nov 07 09:32:34 2017
+# Process ID: 1484
+# Log file: D:/3HA08/check1/planAhead_run_1/planAhead.log
+# Journal file: D:/3HA08/check1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/3HA08/check1/pa.fromHdl.tcl
+startgroup
+set_property loc PAD25 [get_ports clk]
+endgroup
+set_property loc "" [get_ports [list  o]]
+startgroup
+set_property loc PAD179 [get_ports onoff]
+endgroup
+startgroup
+set_property loc PAD164 [get_ports {note[0]}]
+endgroup
+startgroup
+set_property loc PAD165 [get_ports {note[1]}]
+endgroup
+startgroup
+set_property loc PAD166 [get_ports {note[2]}]
+endgroup
+startgroup
+set_property loc PAD171 [get_ports {note[3]}]
+endgroup
+startgroup
+set_property loc PAD172 [get_ports {note[4]}]
+endgroup
+startgroup
+set_property loc PAD173 [get_ports {note[5]}]
+endgroup
+startgroup
+set_property loc PAD174 [get_ports {note[6]}]
+endgroup
+startgroup
+set_property loc PAD60 [get_ports o]
+endgroup
+save_design
+exit
+stop_gui

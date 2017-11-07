@@ -1,0 +1,12 @@
+Release 13.4 Drc O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Tue Nov 07 10:35:13 2017
+
+drc -z elephent.ncd elephent.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net sp_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

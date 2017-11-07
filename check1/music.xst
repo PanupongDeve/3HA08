@@ -1,0 +1,5 @@
+set -tmpdir "D:/3HA08/check1/xst/projnav.tmp"
+set -xsthdpdir "D:/3HA08/check1/xst"
+elaborate
+-ifn music.prj
+-ifmt mixed

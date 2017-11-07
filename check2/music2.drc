@@ -1,0 +1,8 @@
+Release 13.4 Drc O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Tue Nov 07 10:19:58 2017
+
+drc -z music2.ncd music2.pcf
+
+DRC detected 0 errors and 0 warnings.
